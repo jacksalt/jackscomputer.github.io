@@ -1,17 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+
         <meta charset="utf-8">
         <title>jackscomputer.github.io</title>
         <style>
-            #p1 {
-            font-size:50px;
+            #header1 {
+            font-size:40px;
             background-color: darkred;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-image: linear-gradient(to right, rgb(197, 0, 0), rgb(251, 0, 163))
+        }
+
+        #plink {
+            font-size:20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #robloxGif {
+            float:left;
+            width: 300px;
+            border: 5px solid;
+            border-color: rgb(197, 0, 0);
+        }
+
+        .rblxgifalign {
+            display:flex;
+            align-items:start;
+        }
+
+        .p2span {
+            font-size:30px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left:1%;
+            border: 4px rgb(197, 0, 0);
+            border-style:solid;
+            border-radius:10px;
+            padding-left:4px;
+            padding-right:4px;
+            padding-top:4px;
+            padding-bottom:4px;
+            white-space:nowrap;
+        }
+
+        .githubbuttons {
+            display:flex;
+            align-items: center;
+            margin-left:54px;
+            margin-top:3px;
+        }
+
+        #siterepository {
+            margin-left:3px;
         }
         </style>
+
     </head>
+
     <body>
-        <p id="p1">this is jackscomputer.github.io!!!1!11!1!!</p>
+        <h1 id="header1">this is jackscomputer.github.io!!!1!11!1!!</h1>
+
+            <div class="rblxgifalign">
+            <img id="robloxGif"
+            src="https://media.tenor.com/h9tTaOO_nfsAAAAM/roblox-roblox-dance.gif"
+            alt="Roblox Dancing"
+            >
+
+        <h3 id="p2">
+            <span class="p2span">
+            welcome to my github page. woop woop.
+            </span>
+        </h3>
+        </div>
+
+        <div class="githubbuttons">
+       <form id="githubprofile" action="https://github.com/jackscomputer" method="get" target="_blank">
+        <button type="submit">github profile</button>
+       </form> 
+
+       <form id="siterepository" action="https://github.com/jackscomputer/jackscomputer.github.io" method="get" target="_blank">
+        <button type="submit">site repository</button>
+       </form>
+       </div>
     </body>
 </html>
